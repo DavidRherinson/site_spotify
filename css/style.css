@@ -61,7 +61,7 @@ body{
     border-right: 1px solid #d9dadc;
     height: 20px;
   }
-  #color{
+  #color1, #color2{
     color:#d9dadc;
   }
   
@@ -103,8 +103,12 @@ body{
       text-align: center;
       padding-top: 80px;
       transition: all 0.3 ease;
-     
-     
+    }
+    #color1{
+      padding-top: 30px;
+    }
+    #color{
+      margin-top:-20px
     }
     .navbar .menu.active{
       left:0;
