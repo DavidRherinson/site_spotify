@@ -71,16 +71,9 @@ body{
 
     .logo1{
       height:40px;
-       width:auto; 
-    }
-    .navbar .menu{
         
-        list-style: none;
-        display: inline-block;
-        justify-content:space-between
-      }
+    }
 
-     
     .menu-btn{
       display: block;
       z-index: 999;
@@ -98,11 +91,12 @@ body{
       position: fixed;
       height: 100vh;
       width: 100%;
-      left: -100%;
+      left:-100%;
       top: 0;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3 ease;
+      display:block;
     }
     #color1{
       padding-top: 30px;
@@ -124,6 +118,30 @@ body{
     .max-width{
       max-width: 930px;
     }
+    .logo2{
+      height:45px;
+      width: auto;
+      padding-left: 20px;
+    }
+    .footer-logo{
+      height:100%;
+      width:60px;
+      display:block;
+      padding-left: 100px;
+      
+    }
+   .container-footer-menu{
+     margin-top: 50px;
+     flex-direction: row;
+     
+   }
+   .incones{
+    display:block;
+    width: 100%;
+    height: 70px;
+    margin-top: 330px;
+    margin-left: -560px;
+   }
   }
  
 
@@ -215,8 +233,9 @@ body{
     .showcase-container  span{
       display: block;
     }
-  }
-  @media (max-width:500px){
+}
+
+@media (max-width:500px){
     .showcase-container h1{
       font-size: 40px;
       line-height:140%
@@ -257,32 +276,7 @@ footer{
   margin-top: -30px;
   cursor: pointer;
 }
-@media(max-width:976px){
-  .logo2{
-    height:45px;
-    width: auto;
-    padding-left: 20px;
-  }
-  .footer-logo{
-    height:100%;
-    width:60px;
-    display:block;
-    padding-left: 100px;
-    
-  }
- .container-footer-menu{
-   margin-top: 50px;
-   flex-direction: row;
-   
- }
- .incones{
-  display:block;
-  width: 100%;
-  height: 70px;
-  margin-top: 330px;
-  margin-left: -560px;
- }
-}
+
 
 .footer-menu{
   margin: 0 20px;
